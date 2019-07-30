@@ -1,8 +1,7 @@
 from django.http import JsonResponse
 from django.shortcuts import render
 
-from lib.http import render_json
-
+from user.models import User
 # Create your views here.
 def submit_phone(request):
     '''
@@ -40,7 +39,7 @@ def set_profile(request):
     :param request:
     :return:
     '''
-    return
+    pass
 
 
 def upload_avatar(request):
@@ -49,4 +48,4 @@ def upload_avatar(request):
     :param request:
     :return:
     '''
-    return
+    pass
